@@ -30,9 +30,9 @@ function renderTransactions(transactions) {
 //*******************************************************
 document.addEventListener("DOMContentLoaded", function () {
 	document.getElementById('transactions').innerHTML = renderTransactions(fullTransactionData);
-
-	document.getElementById('search-input').addEventListener('change', function (e) {
+	document.getElementById('search-input').addEventListener("input", function (e) {
 		var searchString = e.target.value.toLowerCase();
+		console.log(searchString);
 		var filteredData = fullTransactionData.filter(function (transaction) {
 			var foundInName = transaction.name.toLowerCase().indexOf(searchString) > -1;
 			var foundInFor = transaction.for.toLowerCase().indexOf(searchString) > -1;

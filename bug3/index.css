@@ -34,12 +34,12 @@ body {
 
 .icon {
 	border: 2px solid white;
-    width: 70px;
-    height: 55px;
-    border-radius: 49px;
-    font-size: 34px;
-    margin: 0 auto;
-    padding-top: 14px;
+	width: 70px;
+	height: 55px;
+	border-radius: 49px;
+	font-size: 34px;
+	margin: 0 auto;
+	padding-top: 14px;
 }
 
 .myname {
@@ -74,14 +74,15 @@ li.active {
 }
 
 .new {
-    margin: 0 auto;
-    width: 170px;
-    height: 36px;
-    border-radius: 8px;
-    padding-top: 13px;
-    font-weight: bold;
-    font-size: 20px;
-    cursor: pointer;
+	margin: 0 auto;
+	width: 170px;
+	height: 36px;
+	border-radius: 8px;
+	padding-top: 13px;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #15D642;
 }
 
 .new:hover {
@@ -107,12 +108,12 @@ input:focus {
 }
 
 .buffer {
-    background-color: #F7F7F7;
-    width: 100%;
-    height: 40px;
-    padding-top: 60px;
-    padding-left: 80px;
-    color: #999;
+	background-color: #F7F7F7;
+	width: 100%;
+	height: 40px;
+	padding-top: 60px;
+	padding-left: 80px;
+	color: #999;
 }
 
 .transactions {
@@ -132,7 +133,10 @@ input:focus {
 	color: #333;
 }
 
-.name, .for, .date, .amount {
+.name,
+.for,
+.date,
+.amount {
 	float: left;
 	width: 25%;
 }
